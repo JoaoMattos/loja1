@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link rel="stylesheet" href="../loja/loja.css">
+    <link rel="stylesheet" href="../loja/slide5.css">
+    <script src="../loja/loja.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="clo-btn">
+            <span class="fas fa-times"></span>
+          </div>
+      <div class="wrapper">
+            <div class="search-btn">
+              <span class="fas fa-search"></span>
+            </div>
+      <div class="search-data">
+              <input type="text" required>
+              <div class="line">
+      </div>
+      <label></label>
+              <span class="fas fa-search"></span>
+            </div>
+      </div>
+      <script>
+        $(".search-btn").click(function(){
+          $(".wrapper").addClass("active");
+          $(this).css("display", "none");
+          $(".search-data").fadeIn(300);
+          $(".clo-btn").fadeIn(300);
+          $(".search-data .line").addClass("active");
+          setTimeout(function(){
+            $("input").focus();
+            $(".search-data label").fadeIn(300);
+            $(".search-data span").fadeIn(300);
+          }, 300);
+        });
+        $(".clo-btn").click(function(){
+          $(".wrapper").removeClass("active");
+          $(".search-btn").fadeIn(800);
+          $(".search-data").fadeOut(500);
+          $(".clo-btn").fadeOut(500);
+          $(".search-data .line").removeClass("active");
+          $("input").val("");
+          $(".search-data label").fadeOut(500);
+          $(".search-data span").fadeOut(500);
+        });
+      </script>
+      
+        <Ul>
+            <li> <a href="../Loja/index.html">Home</a> </li>
+            
+            <li> <a href="">produtos mais vendidos</a> </li>
+            
+
+        </Ul>
+        <button class="login"><a href="../loja/Login.html">login</button></a>
+        <button class="cadastre-se"> <a href="../Loja/cadastre-se2.html">cadastre-se</button> </a> 
+        
+        
+    </nav>
+    
+    <h1>
+     <strong> os mais vendidos </strong>
+    </h1>
+ 
+    <div class="itens1">
+        <main class="itens2">
+            <article>
+                
+                    <img class="i-1" src="./xbox series S.jpg"  >
+                    <div class="text">
+                        <br>
+                        <br>
+                       <h3> Xbox series s</h3>
+                       <br>
+                       <br>
+                       <p id="Pe">Uso exclusivo para jogos digitais; o console não reproduz discos físicos
+                        8K: Requer conteúdo e tela compatíveis
+                        120 FPS: Requer conteúdo e tela compatíveis
+                        Desempenho e velocidade de última geração em um formato compacto e totalmente digital.
+                        Reprodução de streaming em 4K e Upscaling 4K para jogos
+                        Alterne entre os jogos com facilidade, retome com rapidez entre vários títulos e volte diretamente de onde parou
+                        Dolby: Dolby Vision HDR no Xbox requer uma tela compatível</p>
+                              <br>
+                              <br>
+                        <h3>Por: R$2700,00 </h3>
+                        <br>
+                              <br>
+                       <button class="botao">Comprar</button>
+                    </div>
+                
+         </article>
+
+         <article>
+                
+            <img class="i-2" src="./xbox series X.jpg"  >
+            <div class="text">
+                <br>
+                <br>
+               <h3> Xbox series X</h3>
+               <br>
+               <br>
+               <p id="Pe">Console Xbox mais rápido e poderoso de todos os tempos
+                Jogue milhares de títulos: todos os jogos têm melhor aparência e são melhor executados no Xbox Series X
+                No coração do Series X está a Xbox Velocity Architecture, que combina um SSD personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo
+                Troque simultaneamente entre vários jogos em um instante com o Quick Resume
+                Explore novos mundos e desfrute da ação como nunca antes com 12 teraflops incomparáveis de poder de processamento gráfico
+                Desfrute de jogos 4K a até 120 quadros por segundo, som 3D avançado especial e muito mais
+                4K a 120 FPS: requer conteúdo e exibição compatíveis
+                Versão X - com leitor de disco</p>
+                      <br>
+                      <br>
+                      <h3>Por: R$4300,00</h3>
+                      <br>
+                              <br>
+               <button class="botao">Comprar</button>
+            </div>
+        
+        </article>
+        <article>
+                
+            <img id="ps5-2" src="../Loja/ps5.jpg"  >
+            <div class="text">
+                <br>
+                <br>
+               <h3> Ps5</h3>
+               <br>
+               <br>
+               <p id="Pe">Domine o poder de uma CPU e GPU personalizadas e o SSD com E/S integradas que redefinem as regras do que o console PlayStation pode fazer
+                SSD ultrarrápido: Maximize suas sessões de jogo com tempos de carregamento praticamente instantâneos para jogos do PS5 instalados.
+                E/S integrada: A integração personalizada dos sistemas de console PS5 permite que os criadores extraiam dados do SSD tão rápido que eles podem desenvolver jogos de formas que antes seriam impossíveis.
+                Maravilhe-se com os gráficos incríveis e experimente os recursos do novo PS5</p>
+                      <br>
+                      <br>
+                      <h3>Por: R$ 4.400,00</h3>
+                      <br>
+                              <br>
+               <button class="botao">Comprar</button>
+            </div>
+        
+        </article>
+        
+        
+        </article>
+        </main>
+    </div>
+</div>
+</div>
+<footer>
+<div class="main-content">
+  <div class="left box">
+    <h2>
+rede social</h2>
+<div class="conten">
+      <p></p>
+<div class="social">
+        <a href="#"><span class="fab fa-facebook-f"></span></a>
+        <a href="#"><span class="fab fa-twitter"></span></a>
+        <a href="https://www.instagram.com/joao_mattos27/?hl=pt-br"><span class="fab fa-instagram"></span></a>
+        <a href="#"><span class="fab fa-youtube"></span></a>
+      </div>
+</div>
+</div>
+<div class="center box">
+    <h2>
+Outros</h2>
+<div class="conten">
+      <div class="place">
+        <span class="fas fa-map-marker-alt"></span>
+        <span class="text"></span>
+      </div>
+<div class="phone">
+        <span class="fas fa-phone-alt"></span>
+        <span class="text">31 994825815</span>
+      </div>
+<div class="email">
+        <span class="fas fa-envelope"></span>
+        <span class="text">Joaomattos271@gamil.com</span>
+      </div>
+</div>
+</div>
+<div class="right box">
+    <h2>
+Contato</h2>
+<div class="conten">
+      <form action="#">
+        <div class="email">
+          <div class="text">
+Email *</div>
+<input type="email" required>
+        </div>
+<div class="msg">
+          <div class="text">
+ </div>
+
+<changeit id=".msgForm" rows="2" cols="25" required></changeit> 
+        
+        <br />
+<div class="btn">
+<button type="submit">Send</button>
+        </div>
+<div class="bottom">
+<center>
+    <span class="credit">Created By <a href="#">Joao Mattos</a> | </span>
+    <span class="far fa-copyright"></span> 2020 All rights reserved.
+  </center>
+</div>
+</footer>
+</body>
+</html>

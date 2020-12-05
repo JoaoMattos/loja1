@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="cadastre-se.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <nav>
+        <div class="clo-btn">
+            <span class="fas fa-times"></span>
+          </div>
+      <div class="wrapper">
+            <div class="search-btn">
+              <span class="fas fa-search"></span>
+            </div>
+      <div class="search-data">
+              <input type="text" required>
+              <div class="line">
+      </div>
+      <label></label>
+              <span class="fas fa-search"></span>
+            </div>
+      </div>
+      <script>
+        $(".search-btn").click(function(){
+          $(".wrapper").addClass("active");
+          $(this).css("display", "none");
+          $(".search-data").fadeIn(300);
+          $(".clo-btn").fadeIn(300);
+          $(".search-data .line").addClass("active");
+          setTimeout(function(){
+            $("input").focus();
+            $(".search-data label").fadeIn(300);
+            $(".search-data span").fadeIn(300);
+          }, 300);
+        });
+        $(".clo-btn").click(function(){
+          $(".wrapper").removeClass("active");
+          $(".search-btn").fadeIn(800);
+          $(".search-data").fadeOut(500);
+          $(".clo-btn").fadeOut(500);
+          $(".search-data .line").removeClass("active");
+          $("input").val("");
+          $(".search-data label").fadeOut(500);
+          $(".search-data span").fadeOut(500);
+        });
+      </script>
+      
+        <Ul>
+            <li> <a href="../loja/loja7.html">Home</a> </li>
+            
+            <li> <a href="../Loja/maisvendidos2.html">produtos mais vendidos</a> </li>
+            
+
+        </Ul>
+        <button class="login"> <a href="../Loja/Login.html"> login</button> </a>
+        <button class="cadastre-se"> cadastre-se</button> 
+        
+        
+    </nav>
+<section>
+    <div class="conte">
+      <div class="text">
+cadastre-se</div>
+<form action="#">
+        <div class="form-row">
+          <div class="inn-data">
+            <input type="text" required>
+            <div class="underline">
+</div>
+<label for="">Nome</label>
+          </div>
+<div class="inn-data">
+            <input type="text" required>
+            <div class="underline">
+</div>
+<label for="">Sobrenome</label>
+          </div>
+</div>
+<div class="form-row">
+          <div class="inn-data">
+            <input type="text" required>
+            <div class="underline">
+</div>
+<label for="">Email </label>
+          </div>
+<div class="inn-data">
+            <input type="text" required>
+            <div class="underline">
+</div>
+<label for="">Senha</label>
+          </div>
+</div>
+<div class="form-row">
+          <div class="inn-data textarea">
+
+            <changeit rows="8" cols="80" required></changeit> 
+            <br />
+<div class="underline">
+</div>
+<label for=""></label>
+          
+        
+        <br />
+<div class="form-row submit-btn">
+          <div class="inn-data">
+            <div class="inne"></div>
+            <input type="submit" value="Criar">
+          </div>
+        </div>
+      </form>
+    </div>
+</section>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+    <footer>
+        <div class="main-content">
+          <div class="left box">
+            <h2>
+        rede social</h2>
+        <div class="content">
+              <p></p>
+        <div class="social">
+                <a href="#"><span class="fab fa-facebook-f"></span></a>
+                <a href="#"><span class="fab fa-twitter"></span></a>
+                <a href="https://www.instagram.com/joao_mattos27/?hl=pt-br"><span class="fab fa-instagram"></span></a>
+                <a href="#"><span class="fab fa-youtube"></span></a>
+              </div>
+        </div>
+        </div>
+        <div class="center box">
+            <h2>
+        Outros</h2>
+        <div class="content">
+              <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text"></span>
+              </div>
+        <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text"></span>
+              </div>
+        <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">abc@example.com</span>
+              </div>
+        </div>
+        </div>
+        <div class="right box">
+            <h2>
+        Contato</h2>
+        <div class="content">
+              <form action="#">
+                <div class="email">
+                  <div class="text">
+        Email *</div>
+        <input type="email" required>
+                </div>
+        <div class="msg">
+                  <div class="text">
+        Menssagem *</div>
+        
+        <changeit id=".msgForm" rows="2" cols="25" required></changeit> 
+                
+                <br />
+        <div class="btn">
+        <button type="submit">Send</button>
+                </div>
+        <div class="bottom">
+        <center>
+            <span class="credit">Created By <a href="#">Joao Mattos</a> | </span>
+            <span class="far fa-copyright"></span> 2020 All rights reserved.
+          </center>
+        </div>
+        </footer>
+  </body>
+</html>

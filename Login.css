@@ -1,0 +1,501 @@
+html{
+    font-size: 10px;
+    background: linear-gradient(to right, #330be7, #e1ddf5, #e4e0ec, #0a07c4);
+} 
+body{
+  
+    
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: 100px;
+}
+nav ul li a { 
+  padding: 10px 35px;
+  margin: 70px;
+    background-color: white;
+    justify-content: space-evenly;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    transition: all -3s;
+    cursor: pointer;
+}
+nav button, .header1 .button{
+    padding: 10px 35px;
+    
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.3);
+    transition: all -3s;
+    cursor: pointer;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+footer{
+    
+        
+        color: #d9d9d9;
+        overflow-y:  hidden;
+        
+}
+.content1{
+    position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+  overflow-y:  hidden;
+  overflow-x: hidden;
+}
+.content1 .text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+  overflow-y:  hidden;
+}
+.content1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+  overflow-y:  hidden;
+}
+footer{
+  margin: 0;
+  padding: 0;
+  color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  bottom: 0px;
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 6px 0px rgb(0, 0, 0, 0.3);
+    overflow-y:  hidden;
+}
+.main-content{
+  display: flex;
+  overflow-y:  hidden;
+}
+
+
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+  overflow-y:  hidden;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  overflow-y:  hidden;
+}
+.box .content{ 
+  margin: 20px 0 0 0;
+  position: relative;
+  
+  
+}
+
+
+.left .content p{
+  text-align: justify;
+  overflow-y:  hidden;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+  overflow-y:  hidden;
+  color: #010008;
+}
+.left .content .social a{
+  padding: 0 2px;
+  overflow-y:  hidden;
+}
+.left .content .social a span{
+  height: 40px;
+  width: 40px;
+  background: white;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  
+        overflow-y: hidden;
+}
+  
+
+.left .content .social a span:hover{
+  background: rgb(10, 10, 10);
+  overflow-y:  hidden;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: rgb(255, 254, 254);
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+
+.center .content .fas:hover{
+  background: white;
+  overflow-y:  hidden;
+}
+.center .content .text{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+  overflow-y:  hidden;
+  color: black;
+}
+.center .content .phone{
+  margin: 15px 0;
+  overflow: hidden;
+  color: #010008;
+}
+.center .content .email{
+    overflow-y: hidden;
+  overflow-x: hidden;
+  color: #010008;
+}
+.right form .text{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #fffbfb;
+  overflow-x: hidden;
+  
+}
+.center .content .place{
+  color: #010008;
+}
+.right form .msg{
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+.right form input, .right form .msgForm{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: white;
+  padding-left: 10px;
+  border: 1px solid #222222;
+  overflow-x: hidden;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: white;
+  overflow-x: hidden;
+}
+.right form input{
+  height: 35px;
+  overflow-x: hidden;
+}
+.right form .btn{
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+.right form .btn button{
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: white;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+.right form .btn button:hover{
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  overflow-x: hidden;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+  overflow-x: hidden;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: white;
+  text-decoration: none;
+  overflow-x: hidden;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+  overflow-y: hidden;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+.wrapper, .search-data{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper{
+  
+  height: 0px;
+  width: 0px;
+  border-radius: 100%;
+  
+  transition: all 0.4s linear;
+}
+.wrapper.active{
+  height: 10px;
+  width: 10px;
+}
+.search-btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: linear-gradient(-135deg, rgb(250, 250, 250), #f3f3f3);
+}
+.search-btn span{
+  color: rgb(15, 14, 14);
+  font-size: 22px;
+  line-height: 60px;
+}
+.search-data{
+    position: absolute;
+  float: left;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  text-align: left;
+  display: none;
+}
+.search-data input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
+.search-data .line{
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: transform 0.4s 0.3s linear;
+}
+.search-data .line.active{
+  transform: scaleX(1);
+}
+.search-data label{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 20px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: rgba(255,255,255,0.7);
+}
+.search-data input:valid ~ label{
+  opacity: 0;
+}
+.search-data span{
+  color: #fff;
+  position: absolute;
+  width: 50px;
+  font-size: 25px;
+  right: 0;
+  top: 0;
+  line-height: 45px;
+  cursor: pointer;
+}
+.clo-btn{
+  position: absolute;
+  z-index: 99;
+  right: 25px;
+  top: 25px;
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+.search-data, .search-data span,
+.search-data label, .clo-btn{
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+article{
+  
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+  /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
+}
+::selection{
+  background: #4158d0;
+  color: #fff;
+}
+.lo{
+  width: 380px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
+.lo .title{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.lo form{
+  padding: 10px 30px 50px 30px;
+}
+.lo form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.lo  .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.lo form .field input:focus,
+form .field input:valid{
+  border-color: #4158d0;
+}
+.lo form .field label{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field input:focus ~ label,
+form .field input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+form .ca{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+form .ca .checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .ca input{
+  width: 15px;
+  height: 15px;
+  background: red;
+}
+form .ca label{
+  color: #262626;
+  user-select: none;
+  padding-left: 5px;
+}
+form .ca .pass-link{
+  color: "";
+}
+form .field input[type="submit"]{
+  color: #fff;
+  border: none;
+  padding-left: 0;
+  margin-top: -10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  transition: all 0.3s ease;
+}
+form .field input[type="submit"]:active{
+  transform: scale(0.95);
+}
+form .signup-link{
+  color: #262626;
+  margin-top: 20px;
+  text-align: center;
+}
+form .pass-link a,
+form .signup-link a{
+  color: #4158d0;
+  text-decoration: none;
+}
+form .pass-link a:hover,
+form .signup-link a:hover{
+  text-decoration: underline;
+}
